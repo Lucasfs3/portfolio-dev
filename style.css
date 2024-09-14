@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+*{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-image: url('image/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow-x: hidden;
+}
+
+header {
+    margin-top: 40px;
+}
+
+#div-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#div-header li {
+    display: inline;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#div-header i {
+    font-size: 27px;
+    padding: 10px;
+}
+
+a {
+    color: white;
+}
+
+div#sessao-apresentacao {
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-bottom: 100px;
+}
+
+div#sessao-apresentacao h2 {
+    font-size: 25px;
+}
+
+
+div#sessao-apresentacao h1 {
+    font-size: 45px;
+}
+
+#btn-fale-conosco {
+    display: inline-block;
+    background-color: #74FAC0;
+    border: 1px solid #74FAC0;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+div#sessao-apresentacao a#btn-fale-conosco:hover {
+    background-color: #010B28;
+    border: 1px solid #010B28;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transform: translateX(-5px);
+}
+
+
+div#sessao-apresentacao i {
+    color: black;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+div#sessao-apresentacao a#btn-fale-conosco:hover i {
+    color: white;
+}
+
+div#sessao-habilidades {
+    margin: auto;
+    padding: 30px 55px 30px 55px;
+    background-color: #010716c5;
+    text-align: center;
+    width: 55%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px #010716;
+}
+
+div#sessao-habilidades h1 {
+    font-size: 45px;
+}
+
+div#sessao-habilidades p {
+    font-size: 20px;
+}
+
+div#sessao-habilidades img {
+    margin: 25px;
+}
+
+#container-sp {
+    display: flex;
+    justify-content: space-around;
+}
+
+div#sessao-projetos {
+    margin-left: 15%;
+}
+
+div#sessao-projetos h1 {
+    font-size: 45px;
+}
+
+div#sessao-projetos img {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+div.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #010716c5;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+div.cont-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.btn-acesse-a-pagina {
+    text-decoration: none;
+    text-align: center;
+    width: 130px;
+    background: transparent;
+    border: 2.5px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.btn-acesse-a-pagina:hover {
+    background-color: #010716;
+    transform: translateY(-5px);
+}
+
+#container-sp1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 75px;
+}
+
+footer p {
+    margin: 20px;
+}
+
+footer i {
+    font-size: 27px;
+    padding: 10px;
+}
+
+
+@media (max-width: 1370px){
+    #container-sp {
+        display: block;
+    }
+    #container-sp1 {
+        display: block;
+    }
+}
+
+@media (max-width: 837px) {
+    body{
+        margin: 0px;
+    }
+
+    #div-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #div-header i{
+        display: block;
+    }
+
+
+    div#sessao-habilidades{
+        width: 100%;
+    }
+
+    #sessao-habilidades img {
+        width: 100px;
+    }
+
+    footer {
+        width: 100vw;
+        display: block;
+        text-align: center;
+    }
+
+    #container-sp .info-container {
+        width: 450px;
+    }
+
+    #container-sp div img {
+        width: 450px;
+    }
+
+    #container-sp1 .info-container {
+        width: 450px;
+    }
+
+    #container-sp1 div img {
+        width: 450px;
+    }
+}
+
