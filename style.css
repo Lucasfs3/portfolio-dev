@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('image/background.svg');
+    background-color: #101010;
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 5%;
@@ -90,7 +90,7 @@ div#sessao-apresentacao a#btn-fale-conosco:hover i {
 div#sessao-habilidades {
     margin: auto;
     padding: 30px 55px 30px 55px;
-    background-color: #010716c5;
+    background-color: #353535c5;
     text-align: center;
     width: 55%;
     border-radius: 15px;
@@ -127,13 +127,14 @@ div#sessao-projetos img {
     height: 300px;
     border-radius: 20px;
     margin-right: 50px;
+    margin-bottom: 10px;
 }
 
 div.info-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #010716c5;
+    background-color: #353535c5;
     width: 500px;
     height: 300px;
     border-radius: 20px;
