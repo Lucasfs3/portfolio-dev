@@ -34,7 +34,7 @@ body {
     box-shadow: 0 0 0 10px #e5ff0044,
     0 0 50px #e5ff00,
     0 0 100px #e5ff00;
-    animation: animar calc(40s / var(--i)) linear infinite;
+    animation: animar calc(80s / var(--i)) linear infinite;
 }
 
 @keyframes animar {
@@ -43,7 +43,7 @@ body {
     }
 
     100% {
-        transform: translateY(-290vh) scale(1);
+        transform: translateY(-800vh) scale(1);
     }
 }
 
@@ -241,6 +241,10 @@ footer i {
         margin: 0px;
     }
 
+    header {
+        margin: 0px;
+    }
+
     #div-header {
         display: flex;
         justify-content: space-between;
@@ -250,35 +254,56 @@ footer i {
         display: block;
     }
 
+    div#sessao-apresentacao {
+        margin-left: 10px;
+        text-align: left;
+        width: 350px;
+    }
+
 
     div#sessao-habilidades{
-        width: 100%;
+        width: 250px;
+        margin: auto;
     }
 
     #sessao-habilidades img {
-        width: 100px;
+        width: 75px;
+        margin: 10px !important;
     }
 
     footer {
-        width: 100vw;
+        margin: 30px auto;
+        width: 300px;
         display: block;
         text-align: center;
     }
 
+    #sessao-projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     #container-sp .info-container {
-        width: 450px;
+        width: 360px;
     }
 
     #container-sp div img {
-        width: 450px;
+        width: 360px;
     }
 
     #container-sp1 .info-container {
-        width: 450px;
+        width: 360px;
     }
 
     #container-sp1 div img {
-        width: 450px;
+        width: 360px;
     }
+
+    .remove {
+        display: none;
+    }
+
 }
 
