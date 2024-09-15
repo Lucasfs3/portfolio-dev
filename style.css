@@ -44,10 +44,6 @@ div.container {
     animation: animar calc(80s / var(--i)) linear infinite;
 }
 
-#container {
-    overflow-x: hidden;
-}
-
 @keyframes animar {
     0% {
         transform: translateY(0vh) scale(0);
@@ -318,8 +314,13 @@ footer i {
         width: 360px;
     }
 
-    #container {
-        overflow-x: hidden;
+    .remove {
+        display: none;
     }
+    @media (max-width: 500px) {
+        .remove2 {
+            display: none;
+        }
+    } 
 }
 
