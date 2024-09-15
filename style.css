@@ -44,6 +44,10 @@ div.container {
     animation: animar calc(80s / var(--i)) linear infinite;
 }
 
+#container {
+    overflow-x: hidden;
+}
+
 @keyframes animar {
     0% {
         transform: translateY(0vh) scale(0);
@@ -312,6 +316,10 @@ footer i {
 
     #container-sp1 div img {
         width: 360px;
+    }
+
+    #container {
+        overflow-x: hidden;
     }
 }
 
