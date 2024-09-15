@@ -22,6 +22,11 @@ body {
     background-size: 100px 100px;
 }
 
+div.container {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 .bolhas {
     display: flex;
     position: absolute;
@@ -238,9 +243,10 @@ footer i {
     }
 }
 
-@media (max-width: 837px) {
+@media (max-width: 800px) {
     body{
         margin: 0px;
+        overflow-x: hidden;
     }
 
     header {
@@ -307,10 +313,5 @@ footer i {
     #container-sp1 div img {
         width: 360px;
     }
-
-    .remove {
-        display: none;
-    }
-
 }
 
