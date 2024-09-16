@@ -236,10 +236,14 @@ footer i {
 
 @media (max-width: 1370px){
     #container-sp {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     #container-sp1 {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
